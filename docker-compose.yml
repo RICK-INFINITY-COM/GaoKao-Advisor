@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  ai-chat:
+    build: .
+    container_name: ai-chat
+    ports:
+      - "8766:8766"
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./system_prompt.md:/app/system_prompt.md:ro
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
