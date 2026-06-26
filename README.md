@@ -5,7 +5,7 @@
 ## 🌐 在线体验
 
 商业版已上线：[**rickinf.top**](https://rickinf.top) — 425万录取数据 + DeepSeek 驱动，免费试用8次。
-![Uploading 横版动态LOGO.gif…]()
+
 
 ---
 
